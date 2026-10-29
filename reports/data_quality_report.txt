@@ -1,0 +1,15 @@
+DATA QUALITY REPORT
+==============================
+raw_rows: 520
+duplicates_removed: 20
+missing_customer_name: 12
+invalid_dates_removed: 8
+invalid_quantity_removed: 10
+clean_rows: 482
+
+Validation checks:
+  PASS - order_id is unique
+  PASS - no missing values
+  PASS - all quantities > 0
+  PASS - all prices > 0
+  PASS - regions are valid
